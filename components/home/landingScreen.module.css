@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imageContainer {
+  position: relative;
+  width: 370px;
+  height: 500px;
+  z-index: 2;
+}
+
+@media (max-width: 720px) {
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

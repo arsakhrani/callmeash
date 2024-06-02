@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.carouselContainer {
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: visible;
+  transition: all ease-in-out 1s;
+}
+
+.pictureContainer {
+  position: relative;
+  min-height: 90vh;
+  min-width: 100vw;
+}
+
+.arrowContainer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 720px) {
+  .pictureContainer {
+    min-height: 30vh;
+  }
+
+  .carouselContainer {
+    height: 30vh;
+  }
+
+  .container {
+    height: 40vh;
+  }
+}

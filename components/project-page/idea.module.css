@@ -1,0 +1,60 @@
+.container {
+  padding-top: 1rem;
+  padding-left: 9.5rem;
+  padding-bottom: 5rem;
+  padding-right: 22rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentContainer {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.ideaText {
+  font-size: 4.1rem;
+  text-decoration: 7px underline white;
+}
+
+.text {
+  width: 44em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.buttonContainer {
+  margin-left: 2em;
+  margin-top: 2em;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .arrowContainer {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0;
+  }
+
+  .text {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  .buttonContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

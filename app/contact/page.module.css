@@ -1,0 +1,13 @@
+.container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.text {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.link {
+  text-decoration: underline;
+}

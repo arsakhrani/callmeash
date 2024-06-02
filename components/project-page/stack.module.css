@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  padding-left: 9.5rem;
+}
+
+.stackText {
+  font-size: 4.1rem;
+  text-decoration: 7px underline white;
+  padding-bottom: 0.5em;
+}
+
+.text {
+  font-size: 4.2rem;
+  transition: all 0.3s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.text:hover {
+  transform: translatex(100px);
+  transition: all 0.3s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.hoverEffect {
+  transition: all 0.3s;
+}
+
+.hoverEffect:hover {
+  color: var(--primary-green);
+  transition: all 0.3s;
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding-left: 2rem;
+  }
+}

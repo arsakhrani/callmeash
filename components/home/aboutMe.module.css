@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+}
+
+.arrowContainer {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.contentContainer {
+  width: 60%;
+  padding-right: 20em;
+}
+
+@media (max-width: 720px) {
+  .container {
+    justify-content: center;
+  }
+
+  .arrowContainer {
+    display: none;
+  }
+
+  .contentContainer {
+    width: 370px;
+    margin-top: 2em;
+  }
+
+  .contentContainer > p {
+    width: 370px;
+  }
+}

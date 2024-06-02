@@ -1,0 +1,10 @@
+.arrowContainer {
+  margin-top: 3em;
+  margin-left: 0.6em;
+}
+
+@media (max-width: 720px) {
+  .arrowContainer {
+    display: none;
+  }
+}

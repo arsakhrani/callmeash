@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  padding-left: 40%;
+  padding-right: 20em;
+}
+
+.buttonContainer {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

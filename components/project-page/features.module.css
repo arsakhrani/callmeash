@@ -1,0 +1,52 @@
+.container {
+  min-height: 90vh;
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
+
+.backButton {
+  font-size: 4.1rem;
+  padding-left: 5.9rem;
+  padding-top: 0.5em;
+  transition: color 0.2s linear;
+}
+
+.backButton:hover {
+  color: var(--primary-green);
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.arrowContainer {
+  padding-right: 0.3em;
+}
+
+.statement {
+  position: relative;
+  padding-left: 40%;
+  padding-right: 2em;
+  z-index: 2;
+}
+
+.image {
+  position: relative;
+  left: 15%;
+  bottom: 2em;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media (max-width: 720px) {
+  .backButton {
+    display: none;
+  }
+
+  .statement {
+    padding-left: 2rem;
+  }
+
+  .image {
+    left: 0;
+  }
+}

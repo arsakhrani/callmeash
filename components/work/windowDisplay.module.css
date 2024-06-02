@@ -1,0 +1,25 @@
+.imageContainer {
+  width: 350px;
+  height: 470px;
+  border-radius: 160px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 0.7;
+  text-align: center;
+  padding-top: 0.5em;
+}
