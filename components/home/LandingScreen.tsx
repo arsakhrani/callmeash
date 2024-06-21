@@ -59,8 +59,10 @@ export default function LandingScreen() {
         <Image
           src={imageSources[currentIndex]}
           fill
-          objectFit="cover"
-          alt="A picture of me in a wetsuit on the beach."
+          sizes="(min-width: 200px) 370px 500px"
+          style={{ objectFit: "cover" }}
+          priority
+          alt="Picture of me."
         />
       </motion.div>
     </motion.section>

@@ -20,8 +20,9 @@ export default function HeroImage({ heroImage, title, tags }: Props) {
         className={styles.imageContainer}
       >
         <Image
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           fill
+          sizes="(min-width: 200px) 100vw 100vh"
           src={heroImage}
           alt="Hero Image for project"
         />

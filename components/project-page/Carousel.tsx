@@ -35,7 +35,13 @@ export default function Carousel({ images }: Props) {
         {images.map((image) => {
           return (
             <div className={styles.pictureContainer} key={image}>
-              <Image fill src={image} alt="test" objectFit="cover" />
+              <Image
+                fill
+                sizes="(max-width: 720px) 100vw 30vh (min-width: 721px) 100vw 90vh"
+                src={image}
+                alt="test"
+                style={{ objectFit: "cover" }}
+              />
             </div>
           );
         })}
