@@ -10,6 +10,7 @@ export default function page() {
         <p className={styles.text}>
           LinkedIn:{" "}
           <a
+            aria-label="LinkedIn Profile"
             className={styles.link}
             href="https://www.linkedin.com/in/ashneil-sakhrani-10645b1b/"
             target="_blank"
@@ -20,6 +21,7 @@ export default function page() {
         <p className={styles.text}>
           CV:{" "}
           <a
+            aria-label="CV Download"
             className={styles.link}
             href="https://www.linkedin.com/in/ashneil-sakhrani-10645b1b/"
             target="_blank"

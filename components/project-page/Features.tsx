@@ -11,7 +11,7 @@ type Props = {
 export default function Features({ featureStatement, secondaryImage }: Props) {
   return (
     <div className={styles.container}>
-      <Link href={"/work"}>
+      <Link aria-label="Work" href={"/work"}>
         <h2 className={styles.backButton}>
           <span className={styles.arrowContainer}>
             <ArrowIcon left />

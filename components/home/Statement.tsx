@@ -7,7 +7,7 @@ export default function Statement() {
     <section className={styles.container}>
       <h2>Pilot by day, developer by night.</h2>
       <div className={styles.buttonContainer}>
-        <Link href={"/work"}>
+        <Link aria-label="Work" href={"/work"}>
           <PrimaryButton buttonText="see my work" />
         </Link>
       </div>

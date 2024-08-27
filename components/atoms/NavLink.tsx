@@ -13,6 +13,7 @@ export default function NavLink({ href, text }: Props) {
   const pathName = usePathname();
   return (
     <Link
+      aria-label={text}
       href={href}
       className={`${styles.link} ${pathName === href ? styles.active : ""}`}
     >

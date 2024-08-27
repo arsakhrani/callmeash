@@ -27,12 +27,12 @@ export default function Idea({ idea, projectLink, githubLink }: Props) {
           })}
           <div className={styles.buttonContainer}>
             {projectLink && (
-              <Link href={projectLink}>
+              <Link aria-label="Project" href={projectLink}>
                 <PrimaryButton buttonText="Visit project" />
               </Link>
             )}
             {githubLink && (
-              <Link href={githubLink}>
+              <Link aria-label="GitHub Profile" href={githubLink}>
                 <PrimaryButton buttonText="Visit Github" />
               </Link>
             )}
