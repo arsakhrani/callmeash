@@ -18,17 +18,6 @@ export default function page() {
             click here!
           </a>
         </p>
-        <p className={styles.text}>
-          CV:{" "}
-          <a
-            aria-label="CV Download"
-            className={styles.link}
-            href="https://www.linkedin.com/in/ashneil-sakhrani-10645b1b/"
-            target="_blank"
-          >
-            click here!
-          </a>
-        </p>
       </main>
     </AnimationWrapper>
   );
